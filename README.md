@@ -7,9 +7,13 @@ It relies on Mike Schierberl's [VarScoper](http://varscoper.riaforge.org/) tool.
 
 Two function are provided:
 * Run this file on VarScoper : open a browser pointing VarScoper passing the active file as parameter
-* Highlight VarScoper violations : highlights lines containing unscoped variables
+* Highlight VarScoper violations : shows a warning icon in the gutter. Ctrl+Alt+v
 
-Due to VarScoper issues, highlighted lines may not always be correct.
+Highlighting will automatically fire on the following:
+* Saving changes to a CFC
+* Switching to a CFC tab from another tab
+
+Due to VarScoper issues, lines may not always be correct.
 
 Installation
 ------------
