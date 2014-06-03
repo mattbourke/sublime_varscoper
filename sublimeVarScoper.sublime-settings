@@ -1,0 +1,7 @@
+/*
+    Var Scoper default settings
+*/
+{
+	"varscoper_cfm_url":"http://127.0.0.1:8888/varscoper/varScoper.cfm?",
+	"parseCfScript": true
+}
