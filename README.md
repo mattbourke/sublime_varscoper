@@ -33,8 +33,8 @@ Configuration
 
 By default, VarScoper is searched at this URL:
 
-	http://localhost/tools/varscoper/varScoper.cfm
+	http://127.0.0.1:8888/varscoper/varScoper.cfm
 
 you can define a custom location for varScoper.cfm by creating a key in the user preferences file:
 
-	"varscoper_cfm_url":"http://host:port/varscoper/varScoper.cfm"
+	"varscoper_cfm_url":"http://127.0.0.1:8888/varscoper/varScoper.cfm"
